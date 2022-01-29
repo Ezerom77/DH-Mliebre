@@ -1,0 +1,129 @@
+
+        <form method="post">
+          <label for="nombre"
+            >Nombre
+            <input
+              type="text"
+              placeholder="Ingrese su nombre"
+              name="nombre"
+              id="nombre"
+              minlength="2"
+            />
+          </label>
+          <label for="apellido"
+            >Apellido
+            <input
+              type="text"
+              placeholder="Ingrese su apellido"
+              name="apellido"
+              id="apellido"
+              minlength="2"
+            />
+          </label>
+
+          <br />
+
+          <label for="user">Nombre de usuario</label>
+          <input
+            type="text"
+            placeholder="Nombre de usuario"
+            name="user"
+            id="user"
+          />
+          <br />
+
+          <label for="birthday">Fecha de nacimiento</label>
+          <input
+            type="date"
+            placeholder="Ingrese su fecha de nacimiento"
+            name="birthday"
+            id="birthday"
+          />
+          <br />
+
+          <label
+            >Domicilio
+            <input
+              type="text"
+              placeholder="Ingrese su Domicilio"
+              name="direccion"
+            />
+          </label>
+          <br />
+
+          <h4>Seleccione comprador o vendedor:</h4>
+
+          <label
+            >Comprador
+            <input type="radio" name="perfil" value="comprador" /> </label
+          ><br />
+
+          <label for="css"
+            >Vendedor
+            <input type="radio" name="perfil" value="vendedor" /> </label
+          ><br />
+
+          <h4>Intereses</h4>
+          <label
+            ><input
+              type="checkbox"
+              id="cbox1"
+              name="intereses"
+              value="first_checkbox"
+            />Electro</label
+          ><br />
+          <label
+            ><input
+              type="checkbox"
+              name="intereses"
+              id="moda"
+              value="moda"
+            />Moda</label
+          >
+          <br />
+          <label
+            ><input
+              type="checkbox"
+              name="intereses"
+              id="hogar"
+              value="hogar"
+            />Hogar</label
+          ><br />
+          <label
+            ><input
+              type="checkbox"
+              name="intereses"
+              id="jugueteria"
+              value="jugueteria"
+            />Jugueteria</label
+          ><br />
+          <label
+            ><input
+              type="checkbox"
+              name="intereses"
+              id="vidasana"
+              value="vidasana"
+            />Vida Sana</label
+          >
+          <br />
+          <br />
+          <label for="foto">
+            Foto de perfil
+            <input type="file" name="foto" />
+          </label>
+          <br />
+          <br />
+          <label for="clave"
+            >Ingrese una contraseña
+            <input type="password" name="clave" id="clave" />
+          </label>
+          <br />
+          <label for="clave2"
+            >Repita su contraseña
+            <input type="password" name="clave2" id="clave2" />
+          </label>
+          <br />
+          <br />
+          <button type="submit">Enviar</button>
+          <button type="reset">Borrar</button>
+        </form>
