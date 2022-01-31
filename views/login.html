@@ -80,141 +80,19 @@
     <main>
       <!-- Formulario de registro -->
       <div class="registro">
-        <form method="post" class="createForm">
-          <label for="nombre"
-            >Nombre
-            <input
-              type="text"
-              placeholder="Ingrese su nombre"
-              name="nombre"
-              id="nombre"
-              minlength="2"
-              class="bloque"
-            />
+        <form action="/" method="GET" class="loginForm">
+          <label for="user"
+            >Ingrese su usuario
+            <input type="text" name="user" id="user" class="bloque" />
           </label>
-          <label for="apellido"
-            >Apellido
-            <input
-              type="text"
-              placeholder="Ingrese su apellido"
-              name="apellido"
-              id="apellido"
-              minlength="2"
-              class="bloque"
-            />
-          </label>
-
-          <br />
-
-          <label for="user">Nombre de usuario</label>
-          <input
-            type="text"
-            placeholder="Nombre de usuario"
-            name="user"
-            id="user"
-            class="bloque"
-          />
-          <br />
-
-          <label for="birthday">Fecha de nacimiento</label>
-          <input
-            type="date"
-            placeholder="Ingrese su fecha de nacimiento"
-            name="birthday"
-            id="birthday"
-            class="bloque"
-          />
-          <br />
-
-          <label
-            >Domicilio
-            <input
-              type="text"
-              placeholder="Ingrese su Domicilio"
-              name="direccion"
-              class="bloque"
-            />
-          </label>
-          <br />
-
-          <h4>Seleccione comprador o vendedor:</h4>
-          <br />
-          <label
-            >Comprador
-            <input type="radio" name="perfil" value="comprador" /> </label
-          ><br />
-
-          <label for="css"
-            >Vendedor
-            <input type="radio" name="perfil" value="vendedor" /> </label
-          ><br />
-          <br />
-          <h4>Intereses</h4>
-          <br />
-          <label
-            ><input
-              type="checkbox"
-              id="cbox1"
-              name="intereses"
-              value="first_checkbox"
-            />Electro</label
-          ><br />
-          <label
-            ><input
-              type="checkbox"
-              name="intereses"
-              id="moda"
-              value="moda"
-            />Moda</label
-          >
-          <br />
-          <label
-            ><input
-              type="checkbox"
-              name="intereses"
-              id="hogar"
-              value="hogar"
-            />Hogar</label
-          ><br />
-          <label
-            ><input
-              type="checkbox"
-              name="intereses"
-              id="jugueteria"
-              value="jugueteria"
-            />Jugueteria</label
-          ><br />
-          <label
-            ><input
-              type="checkbox"
-              name="intereses"
-              id="vidasana"
-              value="vidasana"
-            />Vida Sana</label
-          >
-          <br />
-          <br />
-          <label for="foto">
-            Foto de perfil
-            <input type="file" name="foto" />
-          </label>
-          <br />
           <br />
           <label for="clave"
-            >Ingrese una contraseña
+            >Repita su contraseña
             <input type="password" name="clave" id="clave" class="bloque" />
           </label>
           <br />
-          <label for="clave2"
-            >Repita su contraseña
-            <input type="password" name="clave2" id="clave2" class="bloque" />
-          </label>
           <br />
-          <br />
-          <div class="btns">
-            <button type="submit">Enviar</button>
-            <button type="reset">Borrar</button>
-          </div>
+          <button class="loginBtn" type="submit">Enviar</button>
         </form>
       </div>
     </main>
@@ -246,6 +124,6 @@
         </div>
       </div>
       <h5 class="copy">Copyright © 1999-2022 MercadoLiebre S.R.L.</h5>
-    </footer> 
+    </footer>
   </body>
 </html>
